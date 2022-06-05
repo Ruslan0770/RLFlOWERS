@@ -1,0 +1,454 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#allheader {
+  padding: 4rem 0;
+  background-color: white;
+  text-align: right;
+}
+
+#allheader .all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#allheader .left {
+  width: 22%;
+  margin-left: -30px;
+}
+
+#allheader .right {
+  width: 73%;
+}
+
+#allheader .right i {
+  margin-left: 30px;
+  font-size: 26px;
+  color: #18191b;
+}
+
+#allheader .right span {
+  margin-left: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 0.5vh;
+}
+
+#allheader .imgall {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#allheader .left img {
+  width: 100%;
+}
+
+#allheader .right a {
+  font-size: 20px;
+  text-decoration: none;
+  margin-left: 43px;
+  color: #1b1b1b;
+  font-weight: 400;
+}
+
+.Allsend {
+  background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-slider-background-2.jpg);
+  padding: 10rem 17rem;
+  text-align: left;
+  background-size: cover;
+}
+
+.Allsend .left {
+  width: 50%;
+}
+
+.Allsend .left h1 {
+  font-size: 49px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.Allsend .left h1 span {
+  color: red;
+}
+
+.Allsend p {
+  color: #6d6a6a;
+  font-size: 24px;
+  letter-spacing: 0ex;
+}
+
+.Pictures .alltop {
+  padding: 5rem 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Pictures .left a {
+  font-size: 17px;
+  margin-left: 30px;
+  text-decoration: none;
+  letter-spacing: 0.2ch;
+  color: #1B1B1B;
+}
+
+.Pictures .right a {
+  font-size: 17px;
+  text-decoration: none;
+  letter-spacing: 0.4ch;
+  color: #1B1B1B;
+  font-weight: 500;
+}
+
+.Pictures .bottom {
+  padding: 0 6rem;
+}
+
+.Pictures .allbottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Pictures .box {
+  width: 23%;
+  margin-top: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.box img {
+  width: 100%;
+}
+
+.box span {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  border: 1px solid;
+  padding: 7px 22px;
+  background-color: #1b1b1b;
+  color: #f7f7f7;
+  font-size: 21px;
+  z-index: 2;
+}
+
+img {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.img:hover img {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.box p {
+  font-size: 17px;
+  color: #1b1b1b;
+  text-align: center;
+  letter-spacing: 0.2ch;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.box .pedit {
+  font-size: 17px;
+  color: #1b1b1b;
+  text-align: center;
+  font-weight: 400;
+  opacity: 0.5;
+  margin-bottom: 20px;
+}
+
+.Valentine {
+  padding: 7rem 7rem;
+  background-color: #f7f7f7;
+}
+
+.Valentine .all {
+  margin-left: -70px;
+}
+
+.Valentine .left {
+  width: 44%;
+}
+
+.Valentine .left .box {
+  position: relative;
+  overflow: hidden;
+  position: relative;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.Valentine .left .box img {
+  width: 100%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  z-index: -1;
+}
+
+.Valentine .left .box i {
+  color: #624d4d;
+  position: absolute;
+  font-size: 90px;
+  left: 50%;
+  top: 50%;
+  z-index: 2;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.Valentine .img:hover img {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.Valentine .all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Valentine .right {
+  width: 44%;
+}
+
+.Valentine .right h1 {
+  font-size: 50px;
+  margin-bottom: 50px;
+  line-height: 1.3;
+}
+
+.Valentine .right h1 span {
+  color: red;
+}
+
+.Valentine .right p {
+  font-size: 25px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  color: #6d6a6a;
+}
+
+.Valentine .right .stick {
+  font-size: 24px;
+  margin-top: 25px;
+  color: #6d6a6a;
+}
+
+.Experts {
+  padding: 9rem 0;
+}
+
+.Experts .flowex {
+  text-align: center;
+}
+
+.Experts .flowex h1 {
+  font-size: 50px;
+  color: #2b2b2b;
+}
+
+.Experts .flowex p {
+  font-size: 22px;
+  margin-top: 20px;
+  color: #6d6a6a;
+}
+
+.Experts .allexperts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Experts .box {
+  width: 15%;
+  margin-top: 40px;
+}
+
+.Experts .box img {
+  width: 100%;
+}
+
+.Experts .box h5 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 17px;
+  letter-spacing: 0.1vh;
+}
+
+.Experts .box p {
+  font-size: 15px;
+  opacity: 0.5;
+}
+
+.Join {
+  padding: 15rem 0;
+  background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-background-img.jpg);
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.Join h1 {
+  color: #ffffff;
+}
+
+.Join .alljoin input {
+  padding: 20px 12rem;
+  margin-top: 20px;
+}
+
+.Join .alljoin span button {
+  padding: 20px 80px;
+  vertical-align: baseline;
+  background-color: #f34f3f;
+  font-size: 16px;
+  color: white;
+  letter-spacing: 0.2VH;
+  margin-left: -6px;
+  border-color: transparent;
+}
+
+.Blog {
+  padding: 7rem 2rem;
+  background-color: #f7f7f7;
+}
+
+.Blog .flowex {
+  text-align: center;
+}
+
+.Blog .flowex h1 {
+  font-size: 50px;
+  color: #2b2b2b;
+}
+
+.Blog .flowex p {
+  font-size: 22px;
+  margin-top: 20px;
+  color: #6d6a6a;
+}
+
+.Blog .allexperts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Blog .box {
+  width: 30%;
+  margin-top: 40px;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  overflow: hidden;
+  position: relative;
+}
+
+.Blog .box span {
+  top: 2%;
+  left: 2%;
+  border: 1px solid;
+  padding: 9px 20px;
+  font-size: 15px;
+  background-color: #f7f7f7;
+  color: #1B1B1B;
+}
+
+.Blog img {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.Blog .img:hover img {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.box img {
+  width: 100%;
+}
+
+.box h5 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 25px;
+  letter-spacing: 0.1vh;
+  font-weight: 400;
+}
+
+.box p {
+  font-size: 15px;
+}
+
+.Jasmine {
+  text-align: center;
+  padding: 5rem 0;
+}
+
+.Jasmine p {
+  font-size: 30px;
+  margin-top: 25px;
+  color: #4b4747;
+}
+
+.Jasmine h5 {
+  margin-top: 60px;
+  font-size: 15px;
+  letter-spacing: 0.1vh;
+}
+
+.Jasmine h6 {
+  margin-top: 10px;
+  opacity: 0.5;
+}
+
+.Jasmine img {
+  width: 5%;
+}
+/*# sourceMappingURL=style.css.map */
